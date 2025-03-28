@@ -16,7 +16,7 @@ header {
     color: cyan;
 
     border: solid 10px cyan;
-    font-family: 'VCR OSD Mono';
+    font-family: 'VCR OSD Mono', sans-serif;
     text-align: center;
     vertical-align: bottom;
     font-size: 42px;
