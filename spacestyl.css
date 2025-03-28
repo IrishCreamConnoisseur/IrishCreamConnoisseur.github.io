@@ -1,21 +1,26 @@
 
 body {
     display: grid;
-    grid-template-columns: 100px 1fr 1fr 1fr 1fr 130px 130px 1fr 1fr 1fr 1fr 100px;
-    grid-template-rows: 70px 1fr 1fr 1fr;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 150px 150px 1fr 1fr 1fr 1fr 100px;
+    grid-template-rows: 62px 1fr 1fr 1fr;
     row-gap: 30px;
     background-image: url("space2.png");
+    background-size: cover;
+    font: 18px Consolas;
     ;
 }
 
 header {
-    min-width: 260px;
+    min-width: 300px;
     background-color: rgb(0,0,0,0.4);
     color: cyan;
-    text-align: center;
-    border: solid 10px cyan;
 
-    font: 40px Consolas;
+    border: solid 10px cyan;
+    font-family: 'VCR OSD Mono';
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 40px;
+
     grid-column: 6/8;
     grid-row: 1;
 }
@@ -25,7 +30,8 @@ lside {
     color: red;
     text-align: center;
     border: solid 10px red;
-    font: 15px Consolas;
+    font-size: 15;
+    font-family: 'VCR OSD Mono';
     grid-column: 1/3;
     grid-row: 2/4;
     padding: 8px;
@@ -40,7 +46,8 @@ rside {
     color: red;
     text-align: center;
     border: solid 10px red;
-    font: 15px Consolas;
+    font-size: 15;
+    font-family: 'VCR OSD Mono';
     grid-column: 11/13;
     grid-row: 2/4;
     padding: 8px;
@@ -55,7 +62,7 @@ footer {
     color: lime;
     text-align: center;
     border: solid 10px lime;
-    font: 15px Consolas;
+    font-family: 'VCR OSD Mono';
     grid-column: 6/8;
     grid-row: 4;
     max-height: 18px;
@@ -67,7 +74,6 @@ main {
     color:rgb(255, 135, 0);
     text-align: center;
     border: solid 10px rgb(255, 135, 0);
-    font: 18px Consolas;
     grid-column: 4/10;
     grid-row: 2/4;
     padding: 15px;
@@ -75,7 +81,7 @@ main {
 
 img {
     position: absolute;
-    opacity: 0.3;
+
     pointer-events: none;
 }
   
