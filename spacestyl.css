@@ -49,7 +49,7 @@ rside {
     border: solid 10px red;
     font-size: 15;
     font-family: 'VCR OSD Mono';
-    grid-column: 11/13;
+    grid-column: 10/12;
     grid-row: 2/4;
     padding: 8px;
     max-height: 200px;
