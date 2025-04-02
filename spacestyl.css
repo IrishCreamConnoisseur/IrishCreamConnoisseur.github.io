@@ -11,6 +11,22 @@ body {
     ;
 }
 
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: rgb(180,30,30)
+}
+
+a:hover {
+  color: cyan;
+}
+
+a:active {
+  color: white;
+}
+
 header {
     min-width: 300px;
     background-color: rgb(0,0,0,0.4);
